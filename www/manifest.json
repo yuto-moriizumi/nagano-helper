@@ -14,10 +14,5 @@
       "matches": ["*://togetter.com/li/*"],
       "js": ["index.js"]
     }
-  ],
-  "applications": {
-    "gecko": {
-      "update_url": "https://sites.google.com/site/shinrinrepublic/updates.json"
-    }
-  }
+  ]
 }
