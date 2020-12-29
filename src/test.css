@@ -1,0 +1,7 @@
+.nagano-button {
+    position:fixed;
+    left:10px;
+    top:10px;
+    padding:10px;
+    z-index: 999;
+}
