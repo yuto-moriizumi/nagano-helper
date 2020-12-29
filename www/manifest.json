@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Nagano Helper",
+  "version": "1.0.0",
+  "description": "ナガノタスクを効率化します",
+  "author": "森泉友登",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://togetter.com/li/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "applications": {
+    "gecko": {
+      "update_url": "https://sites.google.com/site/shinrinrepublic/updates.json"
+    }
+  }
+}
